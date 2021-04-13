@@ -12,9 +12,19 @@ p,
 a {
     font-weight: bold;
 }
+p {
+    font-size: 18px;
+}
+h2 {
+    color: #031c4e;
+}
 
 .grey_txt {
     color: #6f7b97;
+}
+
+.grey_bkg {
+    background-color: #f3f5f9;
 }
 
 .my_btn {
@@ -27,6 +37,12 @@ a {
     width: 90%;
     margin: 0 auto;
     padding: 5% 0;
+}
+
+.dots {
+    margin-top: 20px;
+    color: #006aff;
+    border-color: #006aff;
 }
 /* --Common */
 
@@ -94,7 +110,6 @@ nav li {
 /* Header bottom */
 #sponsors {
     padding: 20px 0;
-    background-color: #f3f5f9;
 }
 #sponsors img {
     max-width: 100%;
@@ -106,9 +121,6 @@ nav li {
 
 /* Body of the page */
 /* Deploy */
-#deploy p {
-    font-size: 18px;
-}
 #deploy ul {
     padding: 0;
     border-left: 1px solid #cccccc;
@@ -120,7 +132,28 @@ nav li {
     font-size: 18px;
 }
 /* --Deploy */
+
+/* Designed */
+#designed img {
+    width: 60%;
+    margin: 50px 0 20px 0;
+}
+#designed span {
+    font-weight: bold;
+    color: #031c4e;
+}
+/* --Designed */
 /* --Body of the page */
+
+/* Tablet + smartphone */
+@media screen and (max-width: 1200px) {
+
+    #designed .dots {
+        margin-top: 50px;
+    }
+    
+}
+/* /Tablet + smartphone */
 
 /* Smartphone specific */
 @media screen and (max-width: 768px) {
