@@ -1,6 +1,7 @@
 /* Common */
 ul {
     margin: 0;
+    list-style: none;
 }
 
 h1,
@@ -21,10 +22,15 @@ a {
     color: #046fff;
     font-weight: bold;
 }
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
 /* --Common */
 
 /* Top of the page */
-
 /* Nav */
 nav {
     height: 80px;
@@ -65,7 +71,10 @@ nav li {
     color: #000000;
     background-color: #ffffff;
 }
-#jumbo_login h2:nth-child(2) {
+#jumbo_login h3 {
+    font-size: 28px;
+}
+#jumbo_login h3:nth-child(2) {
     color: #006aff;
 }
 #jumbo_login input {
@@ -93,8 +102,25 @@ nav li {
 }
 
 /* --Header bottom */
-
 /* --Top of the page */
+
+/* Body of the page */
+/* Deploy */
+#deploy p {
+    font-size: 18px;
+}
+#deploy ul {
+    padding: 0;
+    border-left: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+#deploy ul li {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* --Deploy */
+/* --Body of the page */
 
 /* Smartphone specific */
 @media screen and (max-width: 768px) {
@@ -109,7 +135,7 @@ nav li {
 /* Tablet landscape specific */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     
-    ul {
+    nav ul {
         padding-left: 0;
     }
     
