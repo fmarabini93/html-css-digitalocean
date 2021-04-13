@@ -5,8 +5,15 @@ ul {
 
 h1,
 h2,
-p {
+h3,
+h4,
+p,
+a {
     font-weight: bold;
+}
+
+.grey_txt {
+    color: #6f7b97;
 }
 
 .my_btn {
@@ -70,13 +77,22 @@ nav li {
     margin-bottom: 10px;
     font-weight: bold;
 }
-#jumbo_login .btn-default {
-    color: #626262;
-}
 #jumbo_login a {
     text-decoration: underline;
 }
 /* --Jumbotron */
+
+/* Header bottom */
+#sponsors {
+    padding: 20px 0;
+    background-color: #f3f5f9;
+}
+#sponsors img {
+    max-width: 100%;
+    height: 100px;
+}
+
+/* --Header bottom */
 
 /* --Top of the page */
 
