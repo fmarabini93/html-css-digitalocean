@@ -1,0 +1,46 @@
+/* Common */
+* {
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+}
+
+.my_btn {
+    border-color: #046fff;
+    color: #046fff;
+    font-weight: bold;
+}
+/* --Common */
+
+/* Top of the page */
+nav {
+    height: 80px;
+    line-height: 80px;
+}
+nav img {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #031c4e;
+}
+/* --Top of the page */
+
+/* Tablet landscape specific */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    ul {
+        padding-left: 30px;
+    }
+    
+    #nav_right {
+        padding: 0;
+    }
+}
+/* --Tablet landscape specific */
