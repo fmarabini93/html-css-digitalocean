@@ -8,6 +8,10 @@ section {
     padding: 5% 0;
 }
 
+.inline_b {
+    display: inline-block;
+}
+
 h1,
 h2,
 h3,
@@ -93,7 +97,7 @@ nav li {
 #jumbo_login {
     width: 90%;
     padding: 5%;
-    margin: 10% auto;
+    margin: 0 auto;
     border-radius: 5px;
     font-weight: bold;
     color: #000000;
@@ -204,7 +208,48 @@ nav li {
     color: #006aff;
     background-color: #ffffff;
 }
+
+#footer_btm {
+    color: #9fa7b8;
+    background-color: #031c4e;
+}
+#footer_btm img {
+    margin-bottom: 10px;
+}
+#footer_btm span {
+    font-size: 16px;
+    font-weight: bold;
+}
+#footer_btm i {
+    margin-right: 10px;
+}
+#footer_btm ul {
+    padding-left: 0;
+}
+#footer_btm li {
+    padding: 10px 0;
+}
+#footer_btm a:not(.fab){
+    font-size: 18px;
+    color: #9fa7b8;
+}
+
+#made_in {
+    margin-bottom: 20px;
+}
 /* --Bottom of the page */
+
+#help_shark {
+    width: 100px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 5px;
+    background-color: #006aff;
+}
+#help_shark img {
+    width: 100%;
+}
 
 /* Tablet + smartphone */
 @media screen and (max-width: 1200px) {
