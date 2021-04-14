@@ -8,6 +8,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 a {
     font-weight: bold;
@@ -16,6 +17,7 @@ p {
     font-size: 18px;
 }
 h2 {
+    font-size: 36px;
     color: #031c4e;
 }
 
@@ -177,6 +179,30 @@ nav li {
     border-bottom: 1px solid #ffffff;
 }
 /* --Services */
+
+/* Development */
+#development {
+    padding: 5%;
+}
+#development h2 {
+    margin-bottom: 100px;
+}
+
+#rockerbox {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10% 5%;
+    background-color: #ffffff;
+}
+#rockerbox a {
+    display: inline-block;
+    margin-top: 30px;
+}
+#rockerbox img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+/* --Development */
 /* --Body of the page */
 
 /* Tablet + smartphone */
@@ -201,6 +227,10 @@ nav li {
 
     #jumbo h1 {
         font-size: 40px;
+    }
+
+    #rockerbox img {
+        width: 80%;
     }
     
 }
