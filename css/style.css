@@ -98,6 +98,14 @@ nav li {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.dropdown {
+    width: 100px;
+    border: 0;
+    font-weight: bold;
+    color: #031c4e;
+    background-color: #ffffff;
+}
 /* --Nav */
 
 /* Jumbotron */
@@ -199,7 +207,7 @@ nav li {
     margin-bottom: 30px;
 }
 #services p {
-    font-size: 14px;
+    font-size: 16px;
 }
 #services .row .row {
     padding-top: 5px;
@@ -261,7 +269,7 @@ nav li {
     padding: 5px 0;
 }
 #footer_btm a:not(.fab){
-    font-size: 18px;
+    font-size: 16px;
     color: #9fa7b8;
 }
 
@@ -319,12 +327,20 @@ nav li {
 /* Smartphone specific */
 @media screen and (max-width: 768px) {
 
+    a:not(.dots) {
+        font-size: 20px;
+    }
+    
     #jumbo h1 {
         font-size: 40px;
     }
 
     #rockerbox img {
         width: 80%;
+    }
+
+    #footer_btm a:not(.fab) {
+        font-size: 20px;
     }
     
 }

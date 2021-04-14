@@ -24,16 +24,40 @@
                         </div>
                         <div class="col-md-5 hidden-xs hidden-sm">
                             <ul>
-                                <li><a href="#">Products <i class="fas fa-caret-down"></i></a></li>
+                                <li>
+                                    <select name="prts" class="dropdown">
+                                        <option hidden>Products</option>
+                                        <option value="droplets">Droplets</option>
+                                        <option value="kubernetes">Kubernetes</option>
+                                        <option value="platform">App Platform</option>
+                                        <option value="databases">Databases</option>
+                                        <option value="spaces">Spaces</option>
+                                      </select>
+                                </li>
                                 <li><a href="#">Customers</a></li>
-                                <li><a href="#">Community <i class="fas fa-caret-down"></i></a></li>
+                                <li>
+                                    <select name="cmnt" class="dropdown">
+                                        <option hidden>Community</option>
+                                        <option value="overview">Overview</option>
+                                        <option value="tutorials">Tutorials</option>
+                                        <option value="qa">Q&A</option>
+                                        <option value="tools">Tools</option>
+                                      </select>
+                                </li>
                                 <li><a href="#">Pricing</a></li>
                             </ul>
                         </div>
                         <div class="col-md-5 hidden-xs hidden-sm text-right">
                             <ul id="nav_right">
                                 <li><a href="#">Docs</a></li>
-                                <li><a href="#">Support <i class="fas fa-caret-down"></i></a></li>
+                                <li>
+                                    <select name="sprt" class="dropdown">
+                                        <option hidden>Support</option>
+                                        <option value="forum">Forum</option>
+                                        <option value="phones">Useful Numbers</option>
+                                        <option value="form">Contact Form</option>
+                                      </select>
+                                </li>
                                 <li><a href="#">Login</a></li>
                                 <li><button class="btn btn-default my_btn">Sign up</button></li>
                             </ul>
