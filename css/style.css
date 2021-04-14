@@ -41,6 +41,7 @@ a {
 }
 a:hover {
     text-decoration: none;
+    color: #ef6d02;
 }
 
 .grey_bkg {
@@ -67,6 +68,11 @@ a:hover {
     margin-top: 20px;
     color: #006aff;
     border-color: #006aff;
+}
+
+[class*="fa-chevron-"] {
+    padding: 0 20px;
+    color: #031c4e;
 }
 /* --Common */
 
@@ -230,6 +236,9 @@ nav li {
     color: #006aff;
     background-color: #ffffff;
 }
+#footer_top .btn-lg:hover {
+    background-color: #e6e6e6;
+}
 
 #footer_btm {
     color: #9fa7b8;
@@ -249,7 +258,7 @@ nav li {
     padding-left: 0;
 }
 #footer_btm li {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 #footer_btm a:not(.fab){
     font-size: 18px;
@@ -261,8 +270,9 @@ nav li {
 }
 /* --Bottom of the page */
 
+/* Fixed shark helper */
 #help_shark {
-    width: 100px;
+    width: 80px;
     position: fixed;
     bottom: 4%;
     right: 4%;
@@ -287,6 +297,7 @@ nav li {
     background-color: #ff0001;
     color: #ffffff;
 }
+/* --Fixed shark helper */
 
 /* Tablet + smartphone */
 @media screen and (max-width: 1200px) {
@@ -303,7 +314,7 @@ nav li {
     }
     
 }
-/* /Tablet + smartphone */
+/* --Tablet + smartphone */
 
 /* Smartphone specific */
 @media screen and (max-width: 768px) {
