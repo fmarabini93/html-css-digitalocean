@@ -134,6 +134,15 @@ nav li {
 #jumbo_login a {
     text-decoration: underline;
 }
+
+#jumbo .btn-default {
+    position: relative;
+}
+#jumbo .fa-google {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 /* --Jumbotron */
 
 /* Header bottom */
