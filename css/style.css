@@ -353,6 +353,10 @@ nav li {
     #services .big_column {
         margin-bottom: 30px;
     }
+
+    #bubble {
+        display: none;
+    }
     
 }
 /* --Tablet + smartphone */
