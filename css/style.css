@@ -4,6 +4,10 @@ ul {
     list-style: none;
 }
 
+section {
+    padding: 5% 0;
+}
+
 h1,
 h2,
 h3,
@@ -142,9 +146,6 @@ nav li {
 /* --Deploy */
 
 /* Designed */
-#designed {
-    padding: 5% 0;
-}
 #designed img {
     width: 60%;
     margin: 50px 0 20px 0;
@@ -156,18 +157,12 @@ nav li {
 /* --Designed */
 
 /* Features */
-#features {
-    padding: 5% 0;
-}
 #features h2 {
     margin-bottom: 30px;
 }
 /* --Features */
 
 /* Services */
-#services {
-    padding: 5% 0;
-}
 #services h2 {
     margin-bottom: 30px;
 }
@@ -181,9 +176,6 @@ nav li {
 /* --Services */
 
 /* Development */
-#development {
-    padding: 5%;
-}
 #development h2 {
     margin-bottom: 100px;
 }
@@ -204,6 +196,15 @@ nav li {
 }
 /* --Development */
 /* --Body of the page */
+
+/* Bottom of the page */
+#footer_top .btn-lg {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #006aff;
+    background-color: #ffffff;
+}
+/* --Bottom of the page */
 
 /* Tablet + smartphone */
 @media screen and (max-width: 1200px) {
