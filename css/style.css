@@ -1,8 +1,4 @@
 /* Common */
-body {
-    
-}
-
 ul {
     margin: 0;
     list-style: none;
@@ -89,6 +85,15 @@ select {
 [class*="fa-chevron-"] {
     padding: 0 20px;
 }
+
+.my_btn {
+    border-color: #046fff;
+    color: #046fff;
+}
+.my_btn:hover {
+    background-color: #046fff;
+    color: #ffffff;
+}
 /* --Common */
 
 /* Top of the page */
@@ -112,11 +117,6 @@ nav li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
-}
-
-.my_btn {
-    border-color: #046fff;
-    color: #046fff;
 }
 
 .dropdown {
@@ -223,11 +223,6 @@ nav li {
 #footer_top .btn-lg {
     margin-top: 30px;
     font-weight: bold;
-    color: #006aff;
-    background-color: #ffffff;
-}
-#footer_top .btn-lg:hover {
-    background-color: #e6e6e6;
 }
 
 #footer_btm {
