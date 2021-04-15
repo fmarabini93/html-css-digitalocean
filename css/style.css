@@ -239,6 +239,9 @@ nav li {
     color: #9fa7b8;
     background-color: #031c4e;
 }
+#footer_btm h3 {
+    margin-top: 20px;
+}
 #footer_btm img {
     margin-bottom: 10px;
 }
@@ -266,6 +269,10 @@ nav li {
     position: fixed;
     bottom: 4%;
     right: 10%;
+}
+#help_shark:hover #bubble {
+    opacity: 1;
+    transition: 1s;
 }
 #help_shark img {
     height: 60px;
@@ -301,7 +308,6 @@ nav li {
 	border-radius: .4em;
     opacity: 0;
 }
-
 #bubble:after {
 	content: '';
 	position: absolute;
@@ -315,11 +321,6 @@ nav li {
 	margin-top: -10px;
 	margin-right: -10px;
 }
-
-#help_shark:hover #bubble {
-    opacity: 1;
-    transition: 1.5s;
-}
 /* --Fixed shark helper */
 
 /* Tablet + smartphone */
@@ -327,6 +328,10 @@ nav li {
 
     #services .container {
         width: 90%;
+    }
+
+    #footer_btm h3 {
+        font-size: 24px;
     }
 
     #bubble {
