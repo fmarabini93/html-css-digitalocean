@@ -23,11 +23,12 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 h2 {
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
     font-size: 36px;
     color: #031c4e;
 }
 h3 {
+    margin-top: 0;
     font-size: 30px;
 }
 p {
@@ -93,6 +94,10 @@ select {
 .my_btn:hover {
     background-color: #046fff;
     color: #ffffff;
+}
+
+.transp_50 {
+    opacity: 0.5;
 }
 /* --Common */
 
@@ -179,7 +184,7 @@ nav li {
 /* Body of the page */
 /* Deploy */
 #deploy ul {
-    padding: 0;
+    padding: 10px 20px;
     border-left: 1px solid #cccccc;
     margin-bottom: 30px;
 }
@@ -192,6 +197,12 @@ nav li {
 }
 /* --Designed */
 
+/* Features */
+#features [class*="col-"] {
+    padding: 3%;
+}
+/* --Features */
+
 /* Services */
 #services span {
     font-size: 16px;
@@ -203,6 +214,11 @@ nav li {
 /* --Services */
 
 /* Development */
+#development .container > a {
+    position: relative;
+    bottom: 100px;
+}
+
 #rockerbox {
     max-width: 80%;
     margin: 50px auto;
@@ -245,6 +261,9 @@ nav li {
     color: #9fa7b8;
     display: inline-block;
     margin-top: 20px;
+}
+#footer_btm a:hover {
+    color: #ef6d02;
 }
 /* --Bottom of the page */
 
@@ -333,6 +352,10 @@ nav li {
 /* Tablet landscape + smartphone */
 @media screen and (max-width: 992px) {
 
+    section {
+        padding: 10% 0;
+    }
+    
     a:not(.dots) {
         font-size: 20px;
     }
