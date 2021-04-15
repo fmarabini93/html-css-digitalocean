@@ -12,16 +12,6 @@ section {
     display: inline-block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-a,
-span {
-    font-family: 'Roboto', sans-serif;
-}
 h2 {
     margin: 0 0 30px 0;
     font-size: 36px;
@@ -139,7 +129,7 @@ nav li {
 }
 #jumbo h1 {
     margin-top: 0;
-    font-size: 55px;
+    font-size: 65px;
 }
 
 #jumbo_login {
@@ -156,20 +146,21 @@ nav li {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+#jumbo_login button > img {
+    height: 18px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
 #jumbo_login a {
     text-decoration: underline;
 }
-#jumbo_login .btn-primary {
+#jumbo_login .btn-info {
     background-color: #579aff;
 }
 
 #jumbo .btn-default {
     position: relative;
-}
-#jumbo .fa-google {
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 /* --Jumbotron */
 
@@ -186,6 +177,9 @@ nav li {
 #deploy ul {
     padding: 10px 20px;
     border-left: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+#deploy p {
     margin-bottom: 30px;
 }
 /* --Deploy */
@@ -329,17 +323,10 @@ nav li {
 /* --Fixed shark helper */
 
 /* Tablet + smartphone */
-@media screen and (max-width: 1200px) {
-
-    #designed .dots {
-        margin-top: 50px;
-    }
+@media screen and (max-width: 1199px) {
 
     #services .container {
         width: 90%;
-    }
-    #services .big_column {
-        margin-bottom: 30px;
     }
 
     #bubble {
@@ -350,20 +337,20 @@ nav li {
 /* --Tablet + smartphone */
 
 /* Tablet landscape + smartphone */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 
     section {
         padding: 10% 0;
     }
     
     a:not(.dots) {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 /* --Tablet landscape + smartphone */
 
 /* Smartphone specific */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     #jumbo h1 {
         font-size: 40px;
@@ -381,7 +368,7 @@ nav li {
 /* --Smartphone specific */
 
 /* Tablet landscape specific */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     
     nav ul {
         padding-left: 0;
@@ -392,3 +379,17 @@ nav li {
     }
 }
 /* --Tablet landscape specific */
+
+/* Desktop specific */
+@media screen and (min-width: 1200px) {
+
+    #sponsors img {
+        opacity: 0.4;
+    }
+    #sponsors img:hover {
+        opacity: 1;
+        transition: 1s;
+    }
+    
+}
+/* --Desktop specific */
